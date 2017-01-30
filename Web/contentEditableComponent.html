@@ -1,0 +1,4 @@
+<span ng-switch="$ctrl.editMode">
+    <input ng-switch-when="true" ng-model="$ctrl.user">
+    <span ng-switch-default ng-click="$ctrl.handleModeChange()">{{$ctrl.user}}</span>
+</span>

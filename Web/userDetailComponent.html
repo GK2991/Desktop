@@ -1,0 +1,19 @@
+<h2>User Details</h2>
+<div>
+      <h3>{{$ctrl.user.first_name}} {{$ctrl.user.last_name}}</h3>
+</div>
+<div>
+      <label>Firstname </label>
+      <content-editable user="$ctrl.user.first_name"></content-editable>
+</div>
+<div>
+     <label>Lastname </label>
+      <content-editable user="$ctrl.user.last_name"></content-editable>
+</div>
+<div>
+      <label>Email Id </label>
+      <content-editable user="$ctrl.user.email"></content-editable>
+</div>
+<div>
+      <button type="button" class="btn btn-primary" ng-click="$ctrl.gotoUsers()">Back</button>
+</div>

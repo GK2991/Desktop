@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo App</title>
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular-router.js"></script>
+  <script src="app.js"></script>
+  <script src="users.js"></script>
+  <script type="text/javascript">
+    angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  </script>
+</head>
+<body ng-app="app">
+  <app></app>
+</body>
+</html>
